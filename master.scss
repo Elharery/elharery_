@@ -1,0 +1,29 @@
+@use './pages/nav' as *;
+//
+:root
+{
+            --blue-color: #0075ff;
+            --blue-alt-color: #0d69d5;
+            --orange-color:#f59e0b;
+            --green-color:#22c55e;
+            --red-color:#f44336;
+            --gray-color:#888;
+
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --webkit-box-sizing: border-box;
+    --moz-box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}

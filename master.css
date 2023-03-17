@@ -1,0 +1,105 @@
+nav {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 10%;
+  position: sticky;
+  top: 0;
+}
+nav .list {
+  padding: 10px;
+  height: 100%;
+  position: absolute;
+  top: 58px;
+  background: #000;
+  display: none;
+}
+nav .list .elzero {
+  color: #fff;
+}
+nav .logo a {
+  color: #fff;
+  font-size: 20px;
+}
+nav .links > i {
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px;
+  display: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+nav .links ul.drop {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+nav .links ul.drop li {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+nav .links ul.drop li i {
+  color: #fff;
+}
+nav .links ul.drop li span {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  nav {
+    margin: 0 !important;
+  }
+  nav .list {
+    position: relative !important;
+    top: 0 !important;
+    padding: 10px 0 !important;
+  }
+  nav .links > i {
+    display: block !important;
+  }
+  nav .links ul.drop {
+    width: 100% !important;
+    top: 22px;
+    z-index: -555;
+    position: absolute;
+    left: 0;
+    background: #000;
+    display: none;
+  }
+}
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color:#f59e0b;
+  --green-color:#22c55e;
+  --red-color:#f44336;
+  --gray-color:#888;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --webkit-box-sizing: border-box;
+  --moz-box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
